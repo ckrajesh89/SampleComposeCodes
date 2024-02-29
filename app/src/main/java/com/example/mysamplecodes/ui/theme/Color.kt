@@ -26,18 +26,25 @@ val White_Alpha00 = Color(0x00FFFFFF)
 
 val sample1 = Color(0xFFEB0650)
 val sample2 = Color(0xFF0735C2)
+val sample3 = Color(0xFFB16C06)
 val Green = Color(0xFF086F0D)
+val Brown = Color(0xFF683F04)
 val disabledColor = Color(0x1A627CCC)
 val enabledColor = Color(0xA60B35B3)
 
 
 val verticalGradient = Brush.verticalGradient(
     colors = listOf(
-//        Color(0xF70735C2),
-//        Color(0xEE071F68),
-//        Color(0xFF041547),
-        Color(0xF7086F0D),
-        Color(0xEE043D07),
-        Color(0xFF032E05),
+//        Color(0xCE08298F),
+//        Color(0xEE061B57),
+//        Color(0xFF041033),
+
+//        Color(0xF7086F0D),
+//        Color(0xEE043D07),
+//        Color(0xFF032E05),
+
+        Color(0xFFAC6E14),
+        Color(0xFF683F04),
+        Color(0xFF412803),
     )
 )
