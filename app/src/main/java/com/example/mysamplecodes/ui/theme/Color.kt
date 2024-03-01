@@ -29,6 +29,7 @@ val sample2 = Color(0xFF0735C2)
 val sample3 = Color(0xFFB16C06)
 val Green = Color(0xFF086F0D)
 val Brown = Color(0xFF683F04)
+val Brown_light = Color(0xF87E4C04)
 val disabledColor = Color(0x1A627CCC)
 val enabledColor = Color(0xA60B35B3)
 

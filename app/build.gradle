@@ -70,4 +70,7 @@ dependencies {
     implementation "androidx.compose.material:material-icons-extended"
     //Date Pickers
     implementation 'com.google.android.material:material:1.11.0'
+    //compose Navigation
+    def nav_version = "2.7.7"
+    implementation "androidx.navigation:navigation-compose:$nav_version"
 }

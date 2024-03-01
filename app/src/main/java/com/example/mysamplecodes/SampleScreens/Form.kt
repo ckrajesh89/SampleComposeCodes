@@ -361,22 +361,23 @@ fun CustomOutlinedTextField(
              )
         },
         trailingIcon = {
-            if(label == "Gender" || label == "Date of Birth")
-            Icon(
-                imageVector = trailingIcon,
-                contentDescription = "",
-                tint = White_Alpha50,
-                modifier = Modifier.clickable {
-                    when(label){
-                        "Gender" -> {
-                            expandGender = !expandGender
-                        }
-                        "Date of Birth" -> {
-                            expandCalendar = !expandCalendar
+            if(label == "Gender" || label == "Date of Birth") {
+                Icon(
+                    imageVector = trailingIcon,
+                    contentDescription = "",
+                    tint = White_Alpha50,
+                    modifier = Modifier.clickable {
+                        when(label){
+                            "Gender" -> {
+                                expandGender = !expandGender
+                            }
+                            "Date of Birth" -> {
+                                expandCalendar = !expandCalendar
+                            }
                         }
                     }
-                }
-            )
+                )
+            }
             if(expandGender && dropDownList.isNotEmpty()){
                 DropdownMenu(
                     modifier = Modifier
