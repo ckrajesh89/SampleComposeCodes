@@ -40,6 +40,7 @@ fun SampleBackgroundShader(){
     ) {
         Box(
             modifier = Modifier
+                .fillMaxWidth()
                 .clip(RoundedCornerShape(5))
                 .border(1.dp, color = White_Alpha50, shape = RoundedCornerShape(5))
                 .size(width, 200.dp)
@@ -47,6 +48,7 @@ fun SampleBackgroundShader(){
         ) {
             Box(
                 modifier = Modifier
+                    .fillMaxWidth()
                     .clip(RectangleShape)
                     .clip(RoundedCornerShape(5))
                     .width(width)

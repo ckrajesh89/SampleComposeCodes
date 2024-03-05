@@ -51,3 +51,12 @@ val verticalGradient = Brush.verticalGradient(
         Color(0xFF412803),
     )
 )
+
+val gradientTest = Brush.verticalGradient(
+    colors = listOf(
+        Color(0xff2aecd6),
+        Color(0xff22c7db),
+        Color(0xff14a0e2),
+        Color(0xff0b71ea)
+    ).reversed()
+)
