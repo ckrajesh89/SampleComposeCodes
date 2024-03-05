@@ -7,7 +7,10 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.example.mysamplecodes.AnimateNavigation.AnimateNavigation
+import com.example.mysamplecodes.Loaders.HomeScreenShimmer1
+import com.example.mysamplecodes.Loaders.HomeScreenShimmer2
+import com.example.mysamplecodes.RandomScreens.LayoutWithBottomBox
+import com.example.mysamplecodes.RandomScreens.SampleBackgroundShader
 import com.example.mysamplecodes.ui.theme.MySampleCodesTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +24,12 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 //                    SampleForm()
-                    AnimateNavigation()
+//                    AnimateNavigation()
+//                    BlurredBackgroundContent()
+//                    HomeScreenShimmer1()
+                    HomeScreenShimmer2()
+//                    SampleBackgroundShader()
+//                    LayoutWithBottomBox()
                 }
             }
         }
